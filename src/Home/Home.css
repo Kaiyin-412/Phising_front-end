@@ -141,6 +141,11 @@ span:nth-child(10){
     margin-left: 70px;
 }
 
+.Home-component h1{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
 .Home-button{
     display: flex;
     margin-left: 70px;
@@ -158,5 +163,6 @@ span:nth-child(10){
 }
 
 .Home-button button:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    background-color: rgb(25, 56, 147);
 }
