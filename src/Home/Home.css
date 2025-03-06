@@ -5,6 +5,9 @@
     height: 100vh;
     display: flex;
     background-image: url('https://images.squarespace-cdn.com/content/v1/62136331b5a779270099004b/1645437752868-FZKM7T70MWPOONEZBF67/Join_BannerBanner_Impact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
 }
 
 
@@ -133,6 +136,7 @@ span:nth-child(10){
 .Home-logo img{
     margin-right: auto;
     height: 270px;
+    mix-blend-mode: lighten; 
 }
 
 .Home-component p , h1{

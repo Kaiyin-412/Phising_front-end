@@ -1,8 +1,17 @@
 import React from 'react'
 import './Home.css';
 import logo from '../picture/Logo.png';
+import { useNavigate } from 'react-router';
 
 function Home() {
+
+    const navigate = useNavigate();
+
+    const navigateToMain =(e)=>{
+        e.preventDefault();
+        navigate('./Scan')
+    }
+
   return (
     <div className='Home-class'>
         <section>
@@ -27,7 +36,7 @@ function Home() {
                 <h1>Against Phishing </h1>
             </div>
             <div className='Home-button'>
-                <button>Start</button>
+                <button onClick={(e)=>navigateToMain(e)}>Start</button>
             </div>
         </div>
     </div>
